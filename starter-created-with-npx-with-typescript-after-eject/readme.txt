@@ -1,0 +1,3 @@
+after:
+
+npm run eject
