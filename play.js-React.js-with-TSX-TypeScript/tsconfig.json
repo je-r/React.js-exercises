@@ -10,7 +10,7 @@
   "target": "es2018",
   "lib": ["es2018", "dom"],
   "jsx": "preserve",
-  "experimentalDecorators": true
+  "experimentalDecorators": false
   },
   "rootDir": "src",
   "include": ["**/*.ts", "**/*.tsx"]

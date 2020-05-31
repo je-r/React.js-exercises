@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   entry: {
     app: [
-      './src/App.tsx'
+      './src/index.tsx'
     ]
   },
   module: {
