@@ -19,6 +19,10 @@
     "style-loader": "0.x.x",
     "url-loader": "^2.0.0",
     "webpack": "4.x.x",
-    "webpack-dev-middleware": "3.7.x"
+    "webpack-dev-middleware": "3.7.x",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "ts": "tsc"
   }
 }
