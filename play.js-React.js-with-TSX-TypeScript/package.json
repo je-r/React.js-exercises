@@ -1,5 +1,11 @@
 {
   "version": "1.0.0",
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@babel/plugin-proposal-decorators": "latest",
+    "@babel/plugin-proposal-class-properties": "latest"
+  },
   "dependencies": {
     "@babel/core": "7.x.x",
     "@babel/preset-env": "7.x.x",
