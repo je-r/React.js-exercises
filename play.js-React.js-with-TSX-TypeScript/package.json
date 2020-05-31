@@ -20,7 +20,11 @@
     "url-loader": "^2.0.0",
     "webpack": "4.x.x",
     "webpack-dev-middleware": "3.7.x",
-    "typescript": "latest"
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@babel/plugin-proposal-decorators": "latest",
+    "@babel/plugin-proposal-class-properties": "latest"
   },
   "scripts": {
     "ts": "tsc"
