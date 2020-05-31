@@ -13,13 +13,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: (m) => { return /\.(js|jsx)$/.test(m) },
+        test: (m) => { return /\.(ts|tsx|js|jsx)$/.test(m) },
         exclude: (m) => { return /node_modules/.test(m) },
         use: {
           loader: 'babel-loader',
           options: {
             presets: [
               '@babel/preset-env',
+              '@babel/preset-typescript',
               '@babel/preset-react'
             ]
           }
